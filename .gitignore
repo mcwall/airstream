@@ -52,3 +52,21 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+# Docker
+.docker/
+docker-compose.override.yml
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+*.local.yml
+
+# OS files
+.DS_Store
+Thumbs.db
